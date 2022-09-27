@@ -20,6 +20,6 @@
     => <img src ='/images/<name of you file here> />'
     => background-image: url('/images/<name of you file here>');
 
-=> Some CSS changes can may need to refresh the page to be applied
+=> CSS changes can may need to refresh the page to be applied
 
 */
