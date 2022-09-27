@@ -11,6 +11,12 @@ app.get('/healthcheck', (req, res, next) => {
 app.get('/', (req, res, next) => {
   res.sendFile(__dirname + '/views/homepage.html')
 })
+app.get('/work', (req, res, next) => {
+  res.sendFile(__dirname + '/views/work.html')
+})
+app.get('/about', (req, res, next) => {
+  res.sendFile(__dirname + '/views/about.html')
+})
 
 
 
