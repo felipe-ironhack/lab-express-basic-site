@@ -23,6 +23,6 @@ app.get('/about', (req, res, next) => {
 
 
 
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
   console.log(`Server is connected to 3000`)
 })
